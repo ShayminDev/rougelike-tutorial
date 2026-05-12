@@ -1,0 +1,8 @@
+res://src/Game/game.tscn
+res://Assets/definitions/tiles/tile_definition_floor.tres
+res://Assets/definitions/tiles/tile_definition_wall.tres
+res://Assets/definitions/entities/actors/entity_definition_player.tres
+res://Assets/definitions/entities/actors/entity_definition_orc.tres
+res://Assets/definitions/entities/actors/entity_definition_troll.tres
+res://assets/definitions/entities/items/health_potion_definition.tres
+res://Assets/definitions/entities/items/health_potion_definition.tres
