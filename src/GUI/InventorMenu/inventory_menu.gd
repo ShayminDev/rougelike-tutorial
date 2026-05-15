@@ -24,7 +24,7 @@ func build(title_text: String, inventory: InventoryComponent) -> void:
 	
 func _register_item(index: int, item: Entity) -> void:
 	var item_button: Button = inventory_menu_item_scene.instantiate()
-	var char: String = String.chr("".unicode_at(0) + index)
+	var char: String = String.chr("a".unicode_at(0) + index)
 	item_button.text = "( %s ) %s" % [char, item.get_entity_name()]
 	var shortcut_event := InputEventKey.new()
 	shortcut_event.keycode = KEY_A + index

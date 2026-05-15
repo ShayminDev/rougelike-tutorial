@@ -2,15 +2,15 @@
 
 [ext_resource type="Script" uid="uid://c3exnms0l6vr5" path="res://src/Entities/Actors/Components/ComponentDefinitions/healing_consumable_component_definition.gd" id="1_0kr63"]
 [ext_resource type="Script" uid="uid://b1ya3vnnkvoy1" path="res://src/Entities/entity_definition.gd" id="1_yjjse"]
-[ext_resource type="Texture2D" uid="uid://dve8rn7shgqeu" path="res://Assets/monochrome_packed.png" id="2_o3dcv"]
+[ext_resource type="Texture2D" uid="uid://dve8rn7shgqeu" path="res://Assets/monochrome_packed.png" id="3_0kr63"]
 
 [sub_resource type="Resource" id="Resource_0kr63"]
 script = ExtResource("1_0kr63")
-healing_amount = 10
+healing_amount = 25
 metadata/_custom_type_script = "uid://c3exnms0l6vr5"
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0kr63"]
-atlas = ExtResource("2_o3dcv")
+atlas = ExtResource("3_0kr63")
 region = Rect2(656, 176, 16, 16)
 
 [resource]

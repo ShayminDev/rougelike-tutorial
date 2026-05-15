@@ -24,6 +24,8 @@ func _init(definition: FighterComponentDefinition) -> void:
 	death_texture = definition.death_texture
 	death_color = definition.death_color
 	
+	print("FighterComponent initialized: HP = ", hp, "/", max_hp)  # DEBUG
+	
 func heal(amount: int) -> int:
 	
 	if hp == max_hp:

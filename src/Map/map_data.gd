@@ -62,14 +62,7 @@ func get_blocking_entity_at_location(grid_position: Vector2i) -> Entity:
 			return entity
 	return null
 	
-func register_blocking_entity(entity: Entity) -> void:
-	pathfinder.set_point_weight_scale(entity.grid_position, entity_pathfinding_weight)
-
-
-func unregister_blocking_entity(entity: Entity) -> void:
-	pathfinder.set_point_weight_scale(entity.grid_position, 0)
 	
-
 func setup_pathfinding() -> void:
 	pathfinder = AStarGrid2D.new()
 	pathfinder.region = Rect2i(0, 0, width, height)
@@ -90,6 +83,13 @@ func get_actors() -> Array[Entity]:
 			actors.append(entity)
 	return actors
 	
+func register_blocking_entity(entity: Entity) -> void:
+	pathfinder.set_point_weight_scale(entity.grid_position, entity_pathfinding_weight)
+
+
+func unregister_blocking_entity(entity: Entity) -> void:
+	pathfinder.set_point_weight_scale(entity.grid_position, 0)
+		
 func get_items() -> Array[Entity]:
 	var items: Array[Entity] = []
 	for entity in entities:

@@ -4,7 +4,6 @@ extends Component
 var items: Array[Entity]
 var capacity: int
 
-
 func _init(capacity: int) -> void:
 	items = []
 	self.capacity = capacity

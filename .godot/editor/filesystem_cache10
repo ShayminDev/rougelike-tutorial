@@ -1,25 +1,30 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1778538590
+::res://::1778886543
 icon.svg::CompressedTexture2D::3890667645539762920::1774637164::1774637172::1::::<><><>0<>0<>3a4e15f5743f70f418c7d70577b9a010<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+README.md::TextFile::-1::1778642440::0::1::::<><><>0<>0<><>::
 ::res://Assets/::1778255697
 monochrome_packed.png::CompressedTexture2D::8643520030816638524::1774652343::1774652343::1::::<><><>0<>0<>546dc7c0f153e015c58bebb91aea8a87<>res://.godot/imported/monochrome_packed.png-a8f5cc6167729c3557ad39c552dd11eb.ctex::
 ::res://Assets/definitions/::1777333465
 ::res://Assets/definitions/entities/::1778359046
-::res://Assets/definitions/entities/actors/::1778465083
-entity_definition_orc.tres::Resource/EntityDefinition::6900792931582742858::1778465083::0::1::::<><><>0<>0<><>::uid://b1ya3vnnkvoy1::::res://src/Entities/entity_definition.gd<>uid://cgcjhafifhwfr::::res://Assets/definitions/resources/default_death_texture.tres<>uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png<>uid://vlxvklst7ura::::res://src/Entities/Actors/Components/ComponentDefinitions/fighter_component_definition.gd
-entity_definition_player.tres::Resource/EntityDefinition::9000500493904965842::1778463478::0::1::::<><><>0<>0<><>::uid://b1ya3vnnkvoy1::::res://src/Entities/entity_definition.gd<>uid://cgcjhafifhwfr::::res://Assets/definitions/resources/default_death_texture.tres<>uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png<>uid://vlxvklst7ura::::res://src/Entities/Actors/Components/ComponentDefinitions/fighter_component_definition.gd
-entity_definition_troll.tres::Resource/EntityDefinition::4205244777541207758::1778463478::0::1::::<><><>0<>0<><>::uid://b1ya3vnnkvoy1::::res://src/Entities/entity_definition.gd<>uid://cgcjhafifhwfr::::res://Assets/definitions/resources/default_death_texture.tres<>uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png<>uid://vlxvklst7ura::::res://src/Entities/Actors/Components/ComponentDefinitions/fighter_component_definition.gd
-::res://Assets/definitions/entities/items/::1778463478
-health_potion_definition.tres::Resource/EntityDefinition::7748813513194330075::1778463478::0::1::::<><><>0<>0<><>::uid://c3exnms0l6vr5::::res://src/Entities/Actors/Components/ComponentDefinitions/healing_consumable_component_definition.gd<>uid://b1ya3vnnkvoy1::::res://src/Entities/entity_definition.gd<>uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png
-::res://Assets/definitions/resources/::1778438204
+::res://Assets/definitions/entities/actors/::1778878289
+entity_definition_orc.tres::Resource/EntityDefinition::6900792931582742858::1778878289::0::1::::<><><>0<>0<><>::uid://cgcjhafifhwfr::::res://Assets/definitions/resources/default_death_texture.tres<>uid://b1ya3vnnkvoy1::::res://src/Entities/entity_definition.gd<>uid://vlxvklst7ura::::res://src/Entities/Actors/Components/ComponentDefinitions/fighter_component_definition.gd<>uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png
+entity_definition_player.tres::Resource/EntityDefinition::9000500493904965842::1778878289::0::1::::<><><>0<>0<><>::uid://b1ya3vnnkvoy1::::res://src/Entities/entity_definition.gd<>uid://cgcjhafifhwfr::::res://Assets/definitions/resources/default_death_texture.tres<>uid://vlxvklst7ura::::res://src/Entities/Actors/Components/ComponentDefinitions/fighter_component_definition.gd<>uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png
+entity_definition_troll.tres::Resource/EntityDefinition::4205244777541207758::1778878289::0::1::::<><><>0<>0<><>::uid://cgcjhafifhwfr::::res://Assets/definitions/resources/default_death_texture.tres<>uid://b1ya3vnnkvoy1::::res://src/Entities/entity_definition.gd<>uid://vlxvklst7ura::::res://src/Entities/Actors/Components/ComponentDefinitions/fighter_component_definition.gd<>uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png
+::res://Assets/definitions/entities/items/::1778879034
+confusion_scroll_definition.tres::Resource/EntityDefinition::861108726556104387::1778878289::0::1::::<><><>0<>0<><>::uid://b1ya3vnnkvoy1::::res://src/Entities/entity_definition.gd<>uid://cn2oi1di6u8pm::::res://src/Entities/Actors/Components/ComponentDefinitions/confusion_consumable_component_definition.gd<>uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png
+fireball_scroll_definition.tres::Resource/EntityDefinition::297728909937964867::1778878289::0::1::::<><><>0<>0<><>::uid://bi7d6eynwml6w::::res://src/Entities/Actors/Components/ComponentDefinitions/fireball_damage_consumable_component_definition.gd<>uid://b1ya3vnnkvoy1::::res://src/Entities/entity_definition.gd<>uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png
+health_potion_definition.tres::Resource/EntityDefinition::7748813513194330075::1778879034::0::1::::<><><>0<>0<><>::uid://c3exnms0l6vr5::::res://src/Entities/Actors/Components/ComponentDefinitions/healing_consumable_component_definition.gd<>uid://b1ya3vnnkvoy1::::res://src/Entities/entity_definition.gd<>uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png
+lightning_scroll_definition.tres::Resource/EntityDefinition::5960437665255389266::1778879034::0::1::::<><><>0<>0<><>::uid://b1ya3vnnkvoy1::::res://src/Entities/entity_definition.gd<>uid://dm1et5r6pg4d2::::res://src/Entities/Actors/Components/ComponentDefinitions/lightning_damage_consumable_component_definition.gd<>uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png
+::res://Assets/definitions/resources/::1778643905
 default_death_texture.tres::AtlasTexture::5198662146309236315::1778438204::0::1::::<><><>0<>0<><>::uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png
-message_label_settings.tres::LabelSettings::7378369408773797256::1778267333::0::1::::<><><>0<>0<><>::uid://5usxwy02fsqt::::res://Assets/fonts/kenney_kenney-fonts/Fonts/Kenney Pixel.ttf
-::res://Assets/definitions/tiles/::1778463478
-tile_definition_floor.tres::Resource/TileDefinition::7447606233201002127::1778463478::0::1::::<><><>0<>0<><>::uid://ctwgftfolwxiw::::res://src/Map/tile_definition.gd<>uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png
-tile_definition_wall.tres::Resource/TileDefinition::2149855397662999989::1778463478::0::1::::<><><>0<>0<><>::uid://ctwgftfolwxiw::::res://src/Map/tile_definition.gd<>uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png
+hp_label.tres::LabelSettings::8340733462135199079::1778643905::0::1::::<><><>0<>0<><>::uid://5usxwy02fsqt::::res://Assets/fonts/kenney_kenney-fonts/Fonts/Kenney Pixel.ttf
+message_label_settings.tres::LabelSettings::7378369408773797256::1778638109::0::1::::<><><>0<>0<><>::uid://5usxwy02fsqt::::res://Assets/fonts/kenney_kenney-fonts/Fonts/Kenney Pixel.ttf
+::res://Assets/definitions/tiles/::1778878289
+tile_definition_floor.tres::Resource/TileDefinition::7447606233201002127::1778878289::0::1::::<><><>0<>0<><>::uid://ctwgftfolwxiw::::res://src/Map/tile_definition.gd<>uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png
+tile_definition_wall.tres::Resource/TileDefinition::2149855397662999989::1778878289::0::1::::<><><>0<>0<><>::uid://ctwgftfolwxiw::::res://src/Map/tile_definition.gd<>uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png
 ::res://Assets/fonts/::1778255846
-::res://Assets/fonts/kenney_kenney-fonts/::1778255821
-License.txt::TextFile::-1::1778255822::0::1::::<><><>0<>0<><>::
+::res://Assets/fonts/kenney_kenney-fonts/::1778636837
+License.txt::TextFile::-1::1778636837::0::1::::<><><>0<>0<><>::
 ::res://Assets/fonts/kenney_kenney-fonts/Fonts/::1778255849
 Kenney Blocks.ttf::FontFile::5592149164059716058::1778255821::1778255849::1::::<><><>0<>0<>d64060619e8470046a4b8c2074c9d008<>res://.godot/imported/Kenney Blocks.ttf-ad3d74ab156d818bb9d84aa94bf76969.fontdata::
 Kenney Future Narrow.ttf::FontFile::6224065845251970547::1778255821::1778255849::1::::<><><>0<>0<>01954e14473135806d657e77c3e6cba6<>res://.godot/imported/Kenney Future Narrow.ttf-45212b478bf2b0d6a55b7a1a15bddf5c.fontdata::
@@ -34,8 +39,8 @@ Kenney Pixel.ttf::FontFile::2148088037112969715::1778255821::1778255849::1::::<>
 Kenney Rocket Square.ttf::FontFile::11881912221552988::1778255821::1778255849::1::::<><><>0<>0<>dc0ba79dd182dcf779800943526107f2<>res://.godot/imported/Kenney Rocket Square.ttf-19d96fdb2f4d894ac1e9d3db3d75fa7c.fontdata::
 Kenney Rocket.ttf::FontFile::320889528391756573::1778255821::1778255849::1::::<><><>0<>0<>364f2cbf4ff382e20680f7be251d09e4<>res://.godot/imported/Kenney Rocket.ttf-caef782def22d1dba14b223b88dbdfd2.fontdata::
 ::res://src/::1778263541
-::res://src/Entities/::1778448194
-entity.gd::GDScript::8290046733158237443::1778448194::0::1::::Entity<>Sprite2D<><>0<>0<><>::
+::res://src/Entities/::1778707643
+entity.gd::GDScript::8290046733158237443::1778707643::0::1::::Entity<>Sprite2D<><>0<>0<><>::
 EntityDefinition.tres::Resource::5224327498006742679::1775076208::0::1::::<><><>0<>0<><>::
 entity_definition.gd::GDScript::4260926810286391466::1778361146::0::1::::EntityDefinition<>Resource<><>0<>0<><>::
 ::res://src/Entities/Actors/::1776711133
@@ -50,44 +55,54 @@ melee_action.gd::GDScript::9056950039366971530::1778446695::0::1::::MeleeAction<
 movement_action.gd::GDScript::8542743111521792806::1778374244::0::1::::MovementAction<>ActionWithDirection<><>0<>0<><>::
 pickup_action.gd::GDScript::2723620288629606452::1778374483::0::1::::PickupAction<>Action<><>0<>0<><>::
 wait_action.gd::GDScript::3243175399557332035::1778355168::0::1::::WaitAction<>Action<><>0<>0<><>::
-::res://src/Entities/Actors/Components/::1778448992
+::res://src/Entities/Actors/Components/::1778818481
 base_ai_component.gd::GDScript::7328482629691406008::1778447842::0::1::::BaseAIComponent<>Component<><>0<>0<><>::
 base_component.gd::GDScript::3565139252067302435::1778440976::0::1::::Component<>Node<><>0<>0<><>::
-consumable_component.gd::GDScript::5967875484144285063::1778372864::0::1::::ConsumableComponent<>Component<><>0<>0<><>::
-fighter_component.gd::GDScript::4771774082236616508::1778448992::0::1::::FighterComponent<>Component<><>0<>0<><>::
+confused_enemy_ai_component.gd::GDScript::8528114114053721495::1778702662::0::1::::ConfusedEnemyAIComponent<>BaseAIComponent<><>0<>0<><>::
+confusion_consumable_component.gd::GDScript::3453199801062554918::1778702682::0::1::::ConfusionConsumableComponent<>ConsumableComponent<><>0<>0<><>::
+consumable_component.gd::GDScript::5967875484144285063::1778625593::0::1::::ConsumableComponent<>Component<><>0<>0<><>::
+fighter_component.gd::GDScript::4771774082236616508::1778640657::0::1::::FighterComponent<>Component<><>0<>0<><>::
+fireball_damage_consumable_component.gd::GDScript::1988326341864000998::1778707643::0::1::::FireballDamageConsumableComponent<>ConsumableComponent<><>0<>0<><>::
 healing_consumable_component.gd::GDScript::4779689064444268546::1778448843::0::1::::HealingConsumableComponent<>ConsumableComponent<><>0<>0<><>::
 hostile_enemy_ai_component.gd::GDScript::3848968033826634148::1778446352::0::1::::HostileEnemyAIComponent<>BaseAIComponent<><>0<>0<><>::
-inventory_component.gd::GDScript::5224434724612892366::1778373259::0::1::::InventoryComponent<>Component<><>0<>0<><>::
-::res://src/Entities/Actors/Components/ComponentDefinitions/::1778357550
+inventory_component.gd::GDScript::5224434724612892366::1778818481::0::1::::InventoryComponent<>Component<><>0<>0<><>::
+lightning_damage_consumable_component.gd::GDScript::1222389671624334592::1778619139::0::1::::LightningDamageConsumableComponent<>ConsumableComponent<><>0<>0<><>::
+::res://src/Entities/Actors/Components/ComponentDefinitions/::1778704012
+confusion_consumable_component_definition.gd::GDScript::5741900228937458270::1778702662::0::1::::ConfusionConsumableComponentDefinition<>ConsumableComponentDefinition<><>0<>0<><>::
 consumable_component_definition.gd::GDScript::268925732546784389::1778357550::0::1::::ConsumableComponentDefinition<>Resource<><>0<>0<><>::
 fighter_component_definition.gd::GDScript::1498108407269828546::1777333927::0::1::::FighterComponentDefinition<>Resource<><>0<>0<><>::
+fireball_damage_consumable_component_definition.gd::GDScript::3014229279305876032::1778704012::0::1::::FireballDamageConsumableComponentDefinition<>ConsumableComponentDefinition<><>0<>0<><>::
 healing_consumable_component_definition.gd::GDScript::6747806865660250108::1778357550::0::1::::HealingConsumableComponentDefinition<>ConsumableComponentDefinition<><>0<>0<><>::
-::res://src/Game/::1778465083
-game.gd::GDScript::2966223851263083895::1778447842::0::1::::Game<>Node2D<><>0<>0<><>::
-game.tscn::PackedScene::915804470037518605::1778465083::0::1::::<><><>0<>0<><>::uid://bii4jkeb4yto6::::res://src/Game/game.gd<>uid://byx8otdtcy6b5::::res://src/Game/EventHandlers/main_game_input_handler.gd<>uid://dwhqn880sm07n::::res://src/Game/EventHandlers/input_handler.gd<>uid://bhiejsoyrgo5a::::res://src/Game/EventHandlers/game_over_input.gd<>uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png<>uid://bljo7sfma6i76::::res://src/Map/map.gd<>uid://c605lq1eql2vm::::res://src/Map/dungeon_generator.gd<>uid://bjxv74p4w8ten::::res://src/Game/EventHandlers/history_viewer_input_handler.gd<>uid://cee6knc4xi0f5::::res://src/Map/field_of_view.gd<>uid://c0tctqd37s508::::res://src/Game/EventHandlers/base_input_handler.gd<>uid://5usxwy02fsqt::::res://Assets/fonts/kenney_kenney-fonts/Fonts/Kenney Pixel.ttf<>uid://ch8fdrgx2srjs::::res://src/GUI/hp_display.gd<>uid://byihv1bv6j1jx::::res://src/GUI/mouseover_checker.gd<>uid://cmbr88l3t62a2::::res://src/GUI/message_log.gd
-::res://src/Game/EventHandlers/::1778443520
+lightning_damage_consumable_component_definition.gd::GDScript::8055480397787496885::1778618552::0::1::::LightningDamageConsumableComponentDefinition<>ConsumableComponentDefinition<><>0<>0<><>::
+::res://src/Game/::1778879034
+game.gd::GDScript::2966223851263083895::1778878289::0::1::::Game<>Node2D<><>0<>0<><>::
+game.tscn::PackedScene::915804470037518605::1778879033::0::1::::<><><>0<>0<><>::uid://bii4jkeb4yto6::::res://src/Game/game.gd<>uid://byx8otdtcy6b5::::res://src/Game/EventHandlers/main_game_input_handler.gd<>uid://dwhqn880sm07n::::res://src/Game/EventHandlers/input_handler.gd<>uid://bhiejsoyrgo5a::::res://src/Game/EventHandlers/game_over_input.gd<>uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png<>uid://bljo7sfma6i76::::res://src/Map/map.gd<>uid://c605lq1eql2vm::::res://src/Map/dungeon_generator.gd<>uid://bjxv74p4w8ten::::res://src/Game/EventHandlers/history_viewer_input_handler.gd<>uid://cee6knc4xi0f5::::res://src/Map/field_of_view.gd<>uid://c0tctqd37s508::::res://src/Game/EventHandlers/base_input_handler.gd<>uid://ch8fdrgx2srjs::::res://src/GUI/hp_display.gd<>uid://byihv1bv6j1jx::::res://src/GUI/mouseover_checker.gd<>uid://cmbr88l3t62a2::::res://src/GUI/message_log.gd<>uid://doe46ouxbfno::::res://src/GUI/Reticle/reticle.tscn<>uid://dq3kwqytu6eq6::::res://Assets/definitions/resources/hp_label.tres
+::res://src/Game/EventHandlers/::1778706638
 base_input_handler.gd::GDScript::6566941846057586619::1778268401::0::1::::BaseInputHandler<>Node<><>0<>0<><>::
 game_over_input.gd::GDScript::2894517519469001204::1777334912::0::1::::<>BaseInputHandler<><>0<>0<><>::
 history_viewer_input_handler.gd::GDScript::3066934714729386025::1778288108::0::1::::<>BaseInputHandler<><>0<>0<><>::
-input_handler.gd::GDScript::8718863728009002897::1778443520::0::1::::InputHandler<>Node<><>0<>0<><>::
-main_game_input_handler.gd::GDScript::4120463284670205884::1778372972::0::1::::<>BaseInputHandler<><>0<>0<><>::
-::res://src/GUI/::1778372356
-hp_display.gd::GDScript::5332597584329550632::1778265589::0::1::::<>MarginContainer<><>0<>0<><>::
+input_handler.gd::GDScript::8718863728009002897::1778706638::0::1::::InputHandler<>Node<><>0<>0<><>::
+main_game_input_handler.gd::GDScript::4120463284670205884::1778626087::0::1::::<>BaseInputHandler<><>0<>0<><>::
+::res://src/GUI/::1778643652
+hp_display.gd::GDScript::5332597584329550632::1778643652::0::1::::<>MarginContainer<><>0<>0<><>::
 message.gd::GDScript::1177439349151607131::1778267333::0::1::::Message<>Label<><>0<>0<><>::
 message_log.gd::GDScript::5618264740434777199::1778267333::0::1::::MessageLog<>ScrollContainer<><>0<>0<><>::
 mouseover_checker.gd::GDScript::4087931841807587145::1778286096::0::1::::<>Node2D<><>0<>0<><>::
-::res://src/GUI/InventorMenu/::1778447150
-inventory_menu.gd::GDScript::4025383552415857843::1778442731::0::1::::InventoryMenu<>CanvasLayer<><>0<>0<><>::
-Inventory_menu.tscn::PackedScene::8830151107604940090::1778447150::0::1::::<><><>0<>0<><>::uid://bxl6qjyk1oh7h::::res://src/GUI/InventorMenu/inventory_menu.gd<>uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png<>uid://5usxwy02fsqt::::res://Assets/fonts/kenney_kenney-fonts/Fonts/Kenney Pixel.ttf
-inventory_menu_item.tscn::PackedScene::5277674588976743868::1778372973::0::1::::<><><>0<>0<><>::
-::res://src/Map/::1778456074
-dungeon_generator.gd::GDScript::7002146998274752666::1778361146::0::1::::DungeonGenerator<>Node<><>0<>0<><>::
+::res://src/GUI/InventorMenu/::1778878289
+inventory_menu.gd::GDScript::4025383552415857843::1778710075::0::1::::InventoryMenu<>CanvasLayer<><>0<>0<><>::
+Inventory_menu.tscn::PackedScene::8830151107604940090::1778878289::0::1::::<><><>0<>0<><>::uid://bxl6qjyk1oh7h::::res://src/GUI/InventorMenu/inventory_menu.gd<>uid://dve8rn7shgqeu::::res://Assets/monochrome_packed.png<>uid://5usxwy02fsqt::::res://Assets/fonts/kenney_kenney-fonts/Fonts/Kenney Pixel.ttf
+inventory_menu_item.tscn::PackedScene::5277674588976743868::1778625667::0::1::::<><><>0<>0<><>::
+::res://src/GUI/Reticle/::1778818480
+reticle.gd::GDScript::734831109292089245::1778704012::0::1::::Reticle<>Node2D<><>0<>0<><>::
+reticle.tscn::PackedScene::239764126255847892::1778818480::0::1::::<><><>0<>0<><>::uid://kp7tcr6xny3n::::res://src/GUI/Reticle/reticle.gd
+::res://src/Map/::1778803846
+dungeon_generator.gd::GDScript::7002146998274752666::1778803846::0::1::::DungeonGenerator<>Node<><>0<>0<><>::
 field_of_view.gd::GDScript::5063755024911247356::1778456074::0::1::::FieldOfView<>Node<><>0<>0<><>::
 map.gd::GDScript::3177985500492460983::1778361852::0::1::::Map<>Node2D<><>0<>0<><>::
-map_data.gd::GDScript::7724231288442371563::1778448992::0::1::::MapData<>RefCounted<><>0<>0<><>::
+map_data.gd::GDScript::7724231288442371563::1778707477::0::1::::MapData<>RefCounted<><>0<>0<><>::
 tile.gd::GDScript::2683881906846779565::1776626216::0::1::::Tile<>Sprite2D<><>0<>0<><>::
 tile_definition.gd::GDScript::6152219944343617762::1775179521::0::1::::TileDefinition<>Resource<><>0<>0<><>::
-::res://src/Utils/::1778353869
-colors.gd::GDScript::455901945798131457::1778353869::0::1::::GameColors<>RefCounted<><>0<>0<><>::
+::res://src/Utils/::1778613892
+colors.gd::GDScript::455901945798131457::1778613892::0::1::::GameColors<>RefCounted<><>0<>0<><>::
 grid.gd::GDScript::7499984577677574275::1774650818::0::1::::Grid<>Object<><>0<>0<><>::
 signal_bus.gd::GDScript::117347011743039587::1778267333::0::1::::<>Node<><>0<>0<><>::

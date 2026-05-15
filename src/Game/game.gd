@@ -11,11 +11,12 @@ const tile_size = 16
 @onready var map: Map = $Map
 @onready var camera: Camera2D = $Camera2D
 
+
 func _ready()-> void:
 	
 	var player_start_pos: Vector2i = Grid.world_to_grid(get_viewport_rect().size.floor() / 2)
 	player = Entity.new(null, Vector2i.ZERO, player_definition)
-
+	
 	player_created.emit(player)
 	remove_child(camera)
 	player.add_child(camera)
@@ -25,6 +26,7 @@ func _ready()-> void:
 		"Hello and welcome, adventurer, to yet another dungeon!",
 		GameColors.WELCOME_TEXT
 	).call_deferred()
+	camera.make_current.call_deferred()
 
 func _physics_process(_delta: float) -> void:
 	var action: Action = await input_handler.get_action(player)

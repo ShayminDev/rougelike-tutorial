@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="EntityDefinition" format=3 uid="uid://c5k2b0m3rbole"]
 
+[ext_resource type="Texture2D" uid="uid://cgcjhafifhwfr" path="res://Assets/definitions/resources/default_death_texture.tres" id="1_3ua5t"]
 [ext_resource type="Script" uid="uid://b1ya3vnnkvoy1" path="res://src/Entities/entity_definition.gd" id="1_u1ke2"]
-[ext_resource type="Texture2D" uid="uid://cgcjhafifhwfr" path="res://Assets/definitions/resources/default_death_texture.tres" id="1_xkh4m"]
-[ext_resource type="Texture2D" uid="uid://dve8rn7shgqeu" path="res://Assets/monochrome_packed.png" id="2_bjm5s"]
 [ext_resource type="Script" uid="uid://vlxvklst7ura" path="res://src/Entities/Actors/Components/ComponentDefinitions/fighter_component_definition.gd" id="2_hbx7n"]
+[ext_resource type="Texture2D" uid="uid://dve8rn7shgqeu" path="res://Assets/monochrome_packed.png" id="4_xkh4m"]
 
 [sub_resource type="Resource" id="Resource_65jdh"]
 script = ExtResource("2_hbx7n")
@@ -12,7 +12,7 @@ power = 5
 metadata/_custom_type_script = "uid://vlxvklst7ura"
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3ua5t"]
-atlas = ExtResource("2_bjm5s")
+atlas = ExtResource("4_xkh4m")
 region = Rect2(480, 32, 16, 16)
 
 [resource]

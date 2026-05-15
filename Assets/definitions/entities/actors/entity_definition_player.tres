@@ -1,18 +1,19 @@
 [gd_resource type="Resource" script_class="EntityDefinition" format=3 uid="uid://d1h56s62vhtoc"]
 
 [ext_resource type="Script" uid="uid://b1ya3vnnkvoy1" path="res://src/Entities/entity_definition.gd" id="1_2hb73"]
-[ext_resource type="Texture2D" uid="uid://cgcjhafifhwfr" path="res://Assets/definitions/resources/default_death_texture.tres" id="1_p62rd"]
-[ext_resource type="Texture2D" uid="uid://dve8rn7shgqeu" path="res://Assets/monochrome_packed.png" id="2_4tf88"]
+[ext_resource type="Texture2D" uid="uid://cgcjhafifhwfr" path="res://Assets/definitions/resources/default_death_texture.tres" id="1_ksmg4"]
 [ext_resource type="Script" uid="uid://vlxvklst7ura" path="res://src/Entities/Actors/Components/ComponentDefinitions/fighter_component_definition.gd" id="2_tl73d"]
+[ext_resource type="Texture2D" uid="uid://dve8rn7shgqeu" path="res://Assets/monochrome_packed.png" id="4_p62rd"]
 
 [sub_resource type="Resource" id="Resource_re0vk"]
 script = ExtResource("2_tl73d")
-max_hp = 30
+max_hp = 300
 power = 5
+defense = 2
 metadata/_custom_type_script = "uid://vlxvklst7ura"
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ksmg4"]
-atlas = ExtResource("2_4tf88")
+atlas = ExtResource("4_p62rd")
 region = Rect2(288, 112, 16, 16)
 
 [resource]
